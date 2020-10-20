@@ -9,12 +9,11 @@
  *
  * ========================================
 */
-#ifndef __INTERRUPT_ROUTINES_H
-    #define __INTERRUPT_ROUTINES_H
+#ifndef __TIMER_ISR_H
+    #define __TIMER_ISR_H
     #include "cytypes.h"
-    CY_ISR_PROTO(Custom_UART_RX_ISR);
     
-    
-    void RGB_Led_start();
-  #endif
+    CY_ISR_PROTO(Custom_TIMER_RX_ISR);     
+#endif
+
 /* [] END OF FILE */

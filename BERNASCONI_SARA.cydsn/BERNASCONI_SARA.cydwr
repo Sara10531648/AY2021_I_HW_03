@@ -250,10 +250,17 @@
   </Group>
   <Data key="DataVersionKey" value="2" />
   <Group key="DWRInstGuidMapping">
+    <Group key="Interrupt">
+      <Data key="0dbe7ffe-2ba5-4eb7-91b4-4471027c24b3" value="isr_2" />
+      <Data key="6b9307dd-2477-4e5e-939c-5ddbdb3cbf79" value="isr_1" />
+      <Data key="a55e5926-b068-4dde-9aed-3affc82ce8d8" value="isr_2" />
+    </Group>
     <Group key="Pin">
       <Data key="082b2fe8-5042-42dd-ab96-ff7bee2215b2" value="Pin_G" />
+      <Data key="1425177d-0d0e-4468-8bcc-e638e5509a9b" value="Rx_1" />
       <Data key="aa126bfb-36de-4277-980b-f864411ce28f" value="Pin_R" />
       <Data key="e851a3b9-efb8-48be-bbb8-b303b216c393" value="Pin_B" />
+      <Data key="ed092b9b-d398-4703-be89-cebf998501f6" value="Tx_1" />
     </Group>
   </Group>
   <Group key="EEPROM">
@@ -3339,10 +3346,31 @@
       </Group>
     </Group>
   </Group>
+  <Group key="Interrupt">
+    <Group key="0dbe7ffe-2ba5-4eb7-91b4-4471027c24b3">
+      <Group key="CortexM3">
+        <Data key="Assigned" value="True" />
+        <Data key="Priority" value="6" />
+        <Data key="Vector" value="-1" />
+      </Group>
+    </Group>
+    <Group key="a55e5926-b068-4dde-9aed-3affc82ce8d8">
+      <Group key="CortexM3">
+        <Data key="Assigned" value="True" />
+        <Data key="Priority" value="6" />
+        <Data key="Vector" value="-1" />
+      </Group>
+    </Group>
+  </Group>
   <Group key="Pin2">
     <Group key="082b2fe8-5042-42dd-ab96-ff7bee2215b2">
       <Group key="0">
         <Data key="Port Format" value="2,6" />
+      </Group>
+    </Group>
+    <Group key="1425177d-0d0e-4468-8bcc-e638e5509a9b">
+      <Group key="0">
+        <Data key="Port Format" value="12,6" />
       </Group>
     </Group>
     <Group key="aa126bfb-36de-4277-980b-f864411ce28f">
@@ -3355,6 +3383,12 @@
         <Data key="Port Format" value="2,5" />
       </Group>
     </Group>
+    <Group key="ed092b9b-d398-4703-be89-cebf998501f6">
+      <Group key="0">
+        <Data key="Port Format" value="12,7" />
+      </Group>
+    </Group>
+    <Group key="UnAssigned Pins" />
   </Group>
   <Group key="PlaceDir">
     <Data key="count" value="0" />
